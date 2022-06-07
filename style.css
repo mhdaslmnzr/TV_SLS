@@ -10,7 +10,7 @@ body {
   max-height: 100vh;
 }
 #breaking {
-  font-size: 50px;
+  font-size: 150px;
   font-weight: bold;
   padding: 6px;
   background: darkblue;
@@ -20,6 +20,8 @@ body {
   bottom: 0;
   left: 0;
   z-index: 999;
+  display: flex;
+  flex-direction: column;
 }
 #breaking,
 #newsTicker {
@@ -45,7 +47,7 @@ body {
   text-decoration: bold;
 }
 .story {
-  font-size: 45px;
+  font-size: 135px;
   margin-right: 10px;
   padding-right: 5px;
   padding-left: 5px;
@@ -65,7 +67,7 @@ body {
   font-size: 22px;
   font-weight: normal;	
   padding-left: 100%;
-  animation: tickerTape 30s linear infinite;
+  animation: tickerTape 40s linear infinite;
 }
 
 @keyframes tickerTape {
@@ -79,17 +81,23 @@ body {
 
 
 #footer {
-  font-size: 30px;
+  font-size: 90px;
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: #000;
+}
+
+#date-time{
+    font-size: 55px;
+    float: right;
+    border: 1px solid white;
 }
 
 #footer p{
   
     text-align: center;
     font-size: larger;
-    background-color: #000;
     border: 1px solid black;
 }
 
@@ -160,9 +168,9 @@ body{
     animation: titleAnimation 36s linear infinite 0s;
 }
 
-.slideshow li:nth-child(1) span { background-image: url("images/1.png") }
+.slideshow li:nth-child(1) span { background-image: url("images/2.jpeg") }
 .slideshow li:nth-child(2) span {
-    background-image: url("images/2.jpg");
+    background-image: url("images/1.jpeg");
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;

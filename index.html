@@ -2,18 +2,18 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Breaking News Ticker</title>
+  <title>SLS TV</title>
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div id="breaking">School of Legal studies</div>
+<div id="breaking"><span id='date-time'></span>School of Legal studies</div>
 <div id="newsTicker">
   <p>
     
     <span class="section">
-      <span class="story"><span class="subheadings">Heading 1</span>explanation 1</span> 
+      <span class="story"><span class="subheadings">നിയമവേദി@25 <span>-</span> </span>കൊച്ചിൻ യൂണിവേഴ്‌സിറ്റി ലീഗൽ എയ്ഡ് ക്ലിനിക് കുസാറ്റ്, ജില്ലാ ലീഗൽ സർവീസ് അതോറിറ്റി, ആകാശവാണി കൊച്ചി എഫ്എം ഇവയുടെ സംയുക്താഭിമുഖ്യത്തിൽ ജൂൺ 9 വ്യാഴാഴ്ച രണ്ട് മണി മുതൽ, കൊച്ചിൻ യൂണിവേഴ്‌സിറ്റി സെമിനാർ കോംപ്ലക്‌സ് ഹാളിൽ നിയമവേദി@25</span> 
       <span class="story"><span class="subheadings">Heading 2</span>explanation 2</span> 
       <span class="story"><span class="subheadings">Heading 3</span>explanation 3</span> 
       <span class="story"><span class="subheadings">Heading 4</span>explanation 4</span> 
@@ -31,10 +31,14 @@
     <li><span>Image 06</span></li>
   </ul>
 </div>
-<div id="footer"><p>Sponsored by: Akhil Jamal Memmorial Charitable Society(AJMCS) | Fireflies, SLS CUSAT</p></div>
+<div id="footer">
+  
+  <p>Sponsored by: Akhil Jamal Memmorial Charitable Society(AJMCS) | Fireflies, SLS CUSAT</p>
+</div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
   <script>
-    
+    var dt = new Date();
+    document.getElementById('date-time').innerHTML=dt;
   </script>
 </body>
 </html>
