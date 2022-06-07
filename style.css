@@ -67,7 +67,7 @@ body {
   font-size: 22px;
   font-weight: normal;	
   padding-left: 100%;
-  animation: tickerTape 60s linear infinite;
+  animation: tickerTape 80s linear infinite;
 }
 
 @keyframes tickerTape {
@@ -216,7 +216,7 @@ body{
     -ms-animation-delay: 6s;
     animation-delay: 6s;
 }
-.slideshow li:nth-child(3) div {
+/* .slideshow li:nth-child(3) div {
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
@@ -243,7 +243,7 @@ body{
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
     animation-delay: 30s;
-}
+} */
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 
 	0% {
