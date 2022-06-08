@@ -106,7 +106,9 @@ body {
 
 /* General Demo Style */
 body{
-	background: #000;
+	background-image: url(images/1.png);
+    background-size: auto;
+    height: 100vh;
 	font-weight: 400;
 	font-size: 15px;
 	color: #ffffff;
@@ -133,7 +135,7 @@ body{
 }
 .slideshow:after {
     content: '';
-    background: transparent url(../images/pattern.png) repeat top left;
+    /* background: transparent url(../images/pattern.png) repeat top left; */
 }
 .slideshow li span {
     width: 100%;
