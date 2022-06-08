@@ -1,3 +1,6 @@
+@import url('https://smc.org.in/fonts/meera.css'); body { font-family: 'Meera', sans-serif; } 
+
+
 *{
   box-sizing: border-box;
   padding: 0;
@@ -106,9 +109,7 @@ body {
 
 /* General Demo Style */
 body{
-	background-image: url(images/1.png);
-    background-size: auto;
-    height: 100vh;
+	/* background-image: url(images/1.png); */
 	font-weight: 400;
 	font-size: 15px;
 	color: #ffffff;
@@ -155,20 +156,7 @@ body{
     -ms-animation: imageAnimation 36s linear infinite 0s;
     animation: imageAnimation 36s linear infinite 0s;
 }
-.slideshow li div {
-    z-index: 1000;
-    position: absolute;
-    bottom: 30px;
-    left: 0px;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    -webkit-animation: titleAnimation 36s linear infinite 0s;
-    -moz-animation: titleAnimation 36s linear infinite 0s;
-    -o-animation: titleAnimation 36s linear infinite 0s;
-    -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s;
-}
+
 
 .slideshow li:nth-child(1) span { background-image: url("images/2.jpeg") }
 .slideshow li:nth-child(2) span {
@@ -180,7 +168,7 @@ body{
     animation-delay: 6s;
 }
  .slideshow li:nth-child(3) span {
-    background-image: url('"images/1.png"');
+    background-image: url("images/1.png");
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
