@@ -1,5 +1,5 @@
 @import url('https://smc.org.in/fonts/meera.css'); body { font-family: 'Meera', sans-serif; } 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 *{
   box-sizing: border-box;
@@ -9,13 +9,14 @@
 body {
     background: #000;
   margin: 0;
-  font-family: "Fjalla One", sans-serif;
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   max-height: 100vh;
 }
 #breaking {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
+  text-transform: uppercase;
   padding: 6px;
   background: darkblue;
   color: #F1F3CE;
